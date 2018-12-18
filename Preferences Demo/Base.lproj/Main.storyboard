@@ -427,6 +427,14 @@
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <binding destination="YWT-Gn-25X" name="textColor" keyPath="values.textColor" id="OpA-19-e5G">
+                                        <dictionary key="options">
+                                            <string key="NSValueTransformerName">NSKeyedUnarchiveFromData</string>
+                                        </dictionary>
+                                    </binding>
+                                    <binding destination="YWT-Gn-25X" name="value" keyPath="values.message" id="0hr-BK-YUJ"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <constraints>
@@ -438,6 +446,7 @@
                     </view>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <userDefaultsController representsSharedInstance="YES" id="YWT-Gn-25X"/>
             </objects>
             <point key="canvasLocation" x="75" y="717"/>
         </scene>
