@@ -10,6 +10,7 @@
 		2A2F130221C7CCA800A95AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F130121C7CCA800A95AB9 /* AppDelegate.swift */; };
 		2A2F130621C7CCA800A95AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2F130521C7CCA800A95AB9 /* Assets.xcassets */; };
 		2A2F130921C7CCA800A95AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2F130721C7CCA800A95AB9 /* Main.storyboard */; };
+		2ADBC91121C8D3DD00B884FF /* Preferences.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADBC90F21C8D3DD00B884FF /* Preferences.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		2A2F130521C7CCA800A95AB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A2F130821C7CCA800A95AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A2F130A21C7CCA800A95AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ADBC91021C8D3DD00B884FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Preferences.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -42,6 +44,7 @@
 			children = (
 				2A2F130121C7CCA800A95AB9 /* AppDelegate.swift */,
 				2A2F130721C7CCA800A95AB9 /* Main.storyboard */,
+				2ADBC90F21C8D3DD00B884FF /* Preferences.storyboard */,
 				2A2F130521C7CCA800A95AB9 /* Assets.xcassets */,
 				2A2F130A21C7CCA800A95AB9 /* Info.plist */,
 			);
@@ -105,6 +108,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADBC91121C8D3DD00B884FF /* Preferences.storyboard in Resources */,
 				2A2F130621C7CCA800A95AB9 /* Assets.xcassets in Resources */,
 				2A2F130921C7CCA800A95AB9 /* Main.storyboard in Resources */,
 			);
@@ -130,6 +134,14 @@
 				2A2F130821C7CCA800A95AB9 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2ADBC90F21C8D3DD00B884FF /* Preferences.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ADBC91021C8D3DD00B884FF /* Base */,
+			);
+			name = Preferences.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
