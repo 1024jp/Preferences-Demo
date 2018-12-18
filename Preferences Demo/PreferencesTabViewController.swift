@@ -12,6 +12,34 @@ final class PreferencesTabViewController: NSTabViewController {
     
     // MARK: Tab View Controller Methods
     
+    override var selectedTabViewItemIndex: Int {
+        
+        didSet {
+            // avoid storing initial state (set in the storyboard)
+            if
+                self.isViewLoaded,
+                let identifier = self.tabViewItems[selectedTabViewItemIndex].identifier as? String
+            {
+                UserDefaults.standard.set(identifier, forKey: "lastPreferencesPaneIdentifier")
+            }
+        }
+    }
+    
+    
+    override func viewDidLoad() {
+        
+        super.viewDidLoad()
+        
+        // select last used pane
+        if
+            let identifier = UserDefaults.standard.string(forKey: "lastPreferencesPaneIdentifier"),
+            let item = self.tabViewItems.enumerated().first(where: { ($0.element.identifier as? String) == identifier })
+        {
+            self.selectedTabViewItemIndex = item.offset
+        }
+    }
+    
+    
     override func viewWillAppear() {
         
         super.viewWillAppear()

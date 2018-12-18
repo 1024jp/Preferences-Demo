@@ -31,8 +31,8 @@
             <objects>
                 <tabViewController tabStyle="toolbar" id="jmy-y2-4nT" customClass="PreferencesTabViewController" customModule="Preferences_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <tabViewItems>
-                        <tabViewItem label="General" identifier="" image="NSPreferencesGeneral" id="sNa-Q3-pYV"/>
-                        <tabViewItem label="Advanced" identifier="" image="NSAdvanced" id="qAe-gU-l2K"/>
+                        <tabViewItem label="General" identifier="General" image="NSPreferencesGeneral" id="sNa-Q3-pYV"/>
+                        <tabViewItem label="Advanced" identifier="Advanced" image="NSAdvanced" id="qAe-gU-l2K"/>
                     </tabViewItems>
                     <viewControllerTransitionOptions key="transitionOptions" allowUserInteraction="YES"/>
                     <tabView key="tabView" type="noTabsNoBorder" id="RQJ-6S-pfZ">
