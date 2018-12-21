@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="355" y="12"/>
         </scene>
-        <!--Tab View Controller-->
+        <!--Preferences Tab View Controller-->
         <scene sceneID="zUo-8t-cOF">
             <objects>
-                <tabViewController tabStyle="toolbar" id="jmy-y2-4nT" sceneMemberID="viewController">
+                <tabViewController tabStyle="toolbar" id="jmy-y2-4nT" customClass="PreferencesTabViewController" customModule="Preferences_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <tabViewItems>
                         <tabViewItem label="General" identifier="" image="NSPreferencesGeneral" id="sNa-Q3-pYV"/>
                         <tabViewItem label="Advanced" identifier="" image="NSAdvanced" id="qAe-gU-l2K"/>
